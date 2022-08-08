@@ -14,7 +14,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
    const addNum1=()=>{
     
        setNum1(num1 + 1);
-           
+            
    }
    const removeNum=()=>{
     
@@ -88,14 +88,6 @@ const removeNum2=()=>{
 }; 
 
 
-
-
-
-
-
-
-    
-
   return (<>
     <div className='rowcontainer'>
       <div className='columncontainer'><img src="https://images.dominos.co.in/Paneer.jpg" alt=""></img>
@@ -151,8 +143,8 @@ const removeNum2=()=>{
 </ButtonGroup>
       </div>
       </div>
-      <div/>
-    </div>
+      </div>
+
     </>
   );
 };

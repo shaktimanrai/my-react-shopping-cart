@@ -31,10 +31,10 @@
 .rowcontainer{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
   border-style: ridge;
   margin: 15px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .columncontainer{
@@ -51,6 +51,7 @@
   border-style: ridge;
   flex-wrap: wrap;
   flex-direction: column;
+
 }
 
 img{
